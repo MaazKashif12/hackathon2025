@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+    gap: 40px;
+}
+.nav-left h3{
+    font-weight: 800;
+    color: #267DFF;
+
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-icons span{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.nav-icons i{
+    padding: 0px 8px;
+    font-size: 17px;
+}
+
+.nav-icons button{
+    background-color: #267DFF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 18px;
+    font-weight: 600;
+    text-transform: capitalize ;
+}
+
+.bgimage-section{
+    display: flex;
+}
+.bgimage-section img{
+    width: 500px;
+    height: 100vh;
+    position: relative;
+}
+.bgimage-title{
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 320px;
+}
+.bgimage-title h1{
+    font-size: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+.main-sec2{
+    width: 90%;
+    margin: auto;
+}
+.sec2heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.sec2-link{
+    display: flex;
+    align-items: flex-end;
+}
+.sec2-link a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px 25px;
+}
+.sec2-head span{
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.sec2-head h1{
+    font-size: 60px;
+}
+.main-sec2-cards{
+    display: flex;
+    gap: 20px;
+}
+.carditem img{
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+}
+.carditem p{
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 15px 0px;
+}
+
+.vedio-section video{
+    /* max-width: 100%; */
+    max-width: 218vh;
+    height: 150vh;    
+}
+.vedio-section{
+    position: relative;
+
+}
+.vedio-content{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 240%;
+    left: 120px;
+}
+
+.vedio-content i{
+    font-size: 70px;
+}
+.vedio-content h1{
+    font-size: 200px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.vedio-content h3{
+    font-size: 40px;
+}
+
+.main-footer{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    border-top: 10px solid lightgrey;
+}
+
+.main-footer-col1{
+width: 40%;
+
+}
+.foooter-heading{
+line-height: 50px;
+padding: 0px 10px;
+}
+.foooter-heading h1{
+font-size: 48px;
+font-weight: 900;
+color: #267DFF;
+}
+.foooter-heading p{
+font-size: 18px;
+text-transform: capitalize;
+font-weight: 400;
+}
+
+.foooter-icons{
+line-height: 40px;
+padding: 10px;
+}
+.foooter-icons span{
+font-weight: 600;
+text-transform: capitalize;
+}
+.footicons i{
+border-radius: 50%;
+padding: 8px;
+color: white;
+}
+.foooter-form{
+padding: 10px;   
+}
+
+.foooter-form h4{
+color: #267DFF;
+font-weight: 500;
+font-size: 28px;
+padding: 15px 0px;
+}
+.foooter-form input{
+width: 300px;
+padding: 10px 25px ;
+border: 1px solid #CFC5C5;
+border-radius: 30px;
+margin-bottom:12px ;
+}
+.foooter-form button{
+width: 300px;
+padding: 10px 25px ;
+background-color: #267DFF;
+color: white;
+font-weight: 600;
+text-transform: capitalize;
+border: none;
+border-radius: 30px;
+}
+.foooter-form p {
+width: 300px;
+font-size: 12px;
+font-weight: 100;
+color: grey;
+padding: 10px 0px;
+}
+
+.main-footer-col2{
+width: 60%;
+margin-left:auto ;
+display: flex;
+gap: 150px;
+}
+.ul-one{
+display: flex;
+flex-direction: column;
+gap: 6px;
+list-style: none;
+}
+.ul-one h4{
+text-transform: uppercase;
+font-weight: 600;
+padding: 15px 0px;
+}
+.ul-one li a{
+text-decoration: none;
+color: grey;
+text-transform: capitalize;
+font-weight: 500;
+}
+
+.ul-one ol{
+list-style: none;
+padding: 40px 0px;
+padding-top: 0px;
+}
